@@ -4,6 +4,7 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import javax.annotation.PostConstruct;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -15,7 +16,6 @@ import org.springframework.stereotype.Service;
 public class UserDetailsService implements org.springframework.security.core.userdetails.UserDetailsService {
 
     private Map<String, String> users = new HashMap<>();
-
     @Autowired
     private BCryptPasswordEncoder passwordEncoder;
 
@@ -23,7 +23,6 @@ public class UserDetailsService implements org.springframework.security.core.use
     public void init() {
         users.put("mete", passwordEncoder.encode("123"));
     }
-
 
     @Override
     public UserDetails loadUserByUsername(String username) throws UsernameNotFoundException {

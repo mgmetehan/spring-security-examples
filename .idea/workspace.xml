@@ -5,27 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2adf5ef4-55d3-4036-a5ab-692619a4246f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/mvnw.cmd" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/SpringSecurityDemoApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/controller/RoleController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/controller/UserController.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/model/Role.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/model/User.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/repository/RoleRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/repository/UserRepository.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/security/CustomHttpConfigurer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/security/JwtAuthorizationFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/security/JwtTokenFilter.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/security/SecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/service/DefaultUserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mgmetehan/springsecuritydemo/service/UserService.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/mgmetehan/springsecuritydemo/SpringSecurityDemoApplicationTests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/auth/JwtTokenFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/auth/JwtTokenFilter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/auth/TokenManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/auth/TokenManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/auth/UserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/auth/UserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/auth/WebSecurityConfiguration.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/auth/WebSecurityConfiguration.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/controller/AuthConroller.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-security-jwt/src/main/java/com/mgmetehan/springsecurityjwt/controller/AuthConroller.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,7 +64,7 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/IdeaWorkSpace/spring-security-demo/spring-security-jwt",
+    "last_opened_file_path": "D:/IdeaWorkSpace/spring-security-demo",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "two.files.diff.last.used.file": "C:/Users/mgmet/Desktop/spring-security-demo-main/src/main/java/org/huseyin/springsecuritydemo/SpringSecurityDemoApplication.java"
   }

@@ -14,18 +14,16 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/login")
 public class AuthConroller {
-
     @Autowired
     private TokenManager tokenManager;
-
     @Autowired
     private AuthenticationManager authenticationManager;
 
     @PostMapping
     public ResponseEntity<String> login(@RequestBody LoginRequest loginRequest) {
         try {
-            authenticationManager.authenticate(
-                    new UsernamePasswordAuthenticationToken(loginRequest.getUsername(), loginRequest.getPassword()));
+            authenticationManager.authenticate(new UsernamePasswordAuthenticationToken
+                    (loginRequest.getUsername(), loginRequest.getPassword()));
 
             return ResponseEntity.ok(tokenManager.generateToken(loginRequest.getUsername()));
         } catch (Exception e) {
