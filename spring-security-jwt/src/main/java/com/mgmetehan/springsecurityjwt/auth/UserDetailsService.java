@@ -4,7 +4,6 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Map;
 import javax.annotation.PostConstruct;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.User;
 import org.springframework.security.core.userdetails.UserDetails;
@@ -22,7 +21,7 @@ public class UserDetailsService implements org.springframework.security.core.use
 
     @PostConstruct
     public void init() {
-        users.put("temelt", passwordEncoder.encode("123"));
+        users.put("mete", passwordEncoder.encode("123"));
     }
 
 

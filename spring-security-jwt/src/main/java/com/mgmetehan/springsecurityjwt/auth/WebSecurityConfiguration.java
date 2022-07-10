@@ -1,7 +1,5 @@
 package com.mgmetehan.springsecurityjwt.auth;
 
-import com.mgmetehan.springsecurityjwt.auth.JwtTokenFilter;
-import com.mgmetehan.springsecurityjwt.auth.UserDetailsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

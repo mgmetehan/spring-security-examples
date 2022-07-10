@@ -19,7 +19,7 @@ public class TokenManager {
     public String generateToken(String username) {
         return Jwts.builder()
                 .setSubject(username)
-                .setIssuer("www.haydikodlayalim.com")
+                .setIssuer("dona")
                 .setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + validity))
                 .signWith(key)
